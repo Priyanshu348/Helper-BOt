@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
  .setDescription("[**Invite**](https://discord.gg/XhsvDS2)")
  .setColor("#00ff00")
  .setThumbnail(bicon)
- .addField("Use this invite to invite the bot in your server!", "https://discordapp.com/api/oauth2/authorize?client_id=641000384336494612&permissions=8&scope=bot")
+ .addField("Use this invite to invite the bot in your server!", "https://discordapp.com/api/oauth2/authorize?client_id=645481862684475452&permissions=8&scope=bot")
 
  message.channel.send(inviteEmbed);
 
