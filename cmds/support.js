@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
     .setTitle("Support Info")
     .addField("To see the bot commands use", "`!help`")
     .addField("To report bug use", "`!contact`")
-    .addField("If you need help with somehign else", "[Support Sever](https://discord.gg/jMN5yCQ)")
+    .addField("If you need help with somehign else", "[Support Sever](https://discord.gg/C2FQtgZ)")
 
     message.channel.send(embed)
 
