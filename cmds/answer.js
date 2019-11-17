@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
 
     let Invite = message.guild.channels.first().createInvite()
     let Owner = message.author;
-    if(Owner.id !== "291221132256870400" && Owner.id !== "213588167406649346") return message.reply("Only the bot owner can use this command!")
+    if(Owner.id !== "557112105275228161" && Owner.id !== "610488021179039764") return message.reply("Only the bot owner can use this command!")
    
     const id = args.shift();
     const sayMessage = args.join(" ")
