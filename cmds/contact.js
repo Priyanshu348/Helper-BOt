@@ -33,7 +33,7 @@ module.exports.run = async (bot, message, args) => {
     .setDescription("Your contact message has been sent!")
     .addField("Reqested by ", Sender)
     .addField("Message: ", sayMessage)
-    .setFooter("Thanks you for contacting with the OdarBot support!")
+    .setFooter("Thanks you for contacting with the Helper Bot!")
 
     message.channel.send(embed).then(msg => {msg.delete(10000)});
 
