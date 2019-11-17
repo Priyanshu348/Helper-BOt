@@ -42,7 +42,7 @@ bot.user.setStatus('Online')
 
 bot.user.setActivity(`in ${bot.guilds.size} Servers | !help`);
     
-    bot.channels.get("521378814467506176").setName(`Servers: ${bot.user.size}`)
+    bot.channels.get("645475725536788506").setName(`SERVING MEMBERS: ${bot.user.size}`)
     
 
 try {
